@@ -1,0 +1,90 @@
+body{
+    background-color: #dfdfdf;
+    font-family: sans-serif;
+}
+
+body img{
+    width: 40px;
+    border: none;
+    margin: 20px 0px 0px 0px;
+    cursor: pointer;
+}
+
+.tamanho-imagem{
+    
+    width: 20px;
+}
+
+.card{
+
+    background-color: white;
+    padding: 30px;
+    border-radius: 3px;
+    width: 30%;
+    margin: 30px auto;
+    box-shadow: 0px 0px 10px rgba(0 , 0, 0, .1);
+}
+
+.card-title{
+    font-weight: 300;
+    color: gray;
+    text-align: center;
+}
+
+
+
+.card-acoes{
+    text-align: center;
+}
+
+.card-acoes button{
+    border: none;
+    padding: 15px;
+    font-size: 12pt;
+    margin: 20px 0px 0px 0px;
+    color: gray;
+    border: 1px solid gray;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.card-acoes button:hover{
+    background-color: gray;
+    color: white;
+    font-weight: 300;
+    box-shadow: 0px 0px 10px rgba(0 , 0, 0, .1);
+}
+
+
+.tabela-livros{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border-bottom: 1px solid gray;
+    padding: 20px 0px;
+    text-align: left;
+}
+
+td img{
+
+    width: 20px;
+    cursor: pointer;
+}
+
+th{
+    color: gray;
+    font-weight: 800;
+}
+
+.item-lista{
+
+    padding: 20px 0px;
+}
+
+.item-lista img{
+    width: 20px;
+    float: right;
+    cursor: pointer;
+}
